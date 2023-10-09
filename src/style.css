@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('sky.jpg');
+    background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-form{
+    background-color: aquamarine;
+}
+
+.weather-icon{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#labeling{
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: max-content;
+    margin-left: auto;
+}
